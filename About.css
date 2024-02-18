@@ -1,3 +1,7 @@
+main {
+    text-align: center;
+    padding: 20px;
+}
 nav{
     background-color: #d6d6d6;
     color:#fff;
@@ -59,4 +63,47 @@ footer a{
 }
 footer a:hover{
     text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px 0;
+    }
+
+
+    .Nav-Bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .logo img {
+        margin-bottom: 10px;
+    }
+
+
+    ul {
+        margin-top: 10px;
+        justify-content: flex-start;
+    }
+
+
+    li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+
+    main {
+        padding: 15px;
+    }
+
+
+    .objectives, .Programs, .mentors, #testimonials {
+        padding: 15px;
+    }
+
+
+    img {
+        width: 100%;
+    }
 }
