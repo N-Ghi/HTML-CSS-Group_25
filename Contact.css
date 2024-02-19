@@ -1,122 +1,122 @@
-main {
-    text-align: center;
-    padding: 20px;
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
 }
-nav{
+
+header {
     background-color: #d6d6d6;
-    color:#fff;
-    padding: 10px 20px;
+    color: black;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-top: 0px;
+    padding: 15px;
+} 
+header nav ul li a{
+    color: black;
+}
+.Nav-Bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
 }
-nav ul{
-    list-style-type: none;
-    margin:0;
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
     padding: 0;
     display: flex;
 }
-nav li{
+
+nav ul li {
     margin-right: 20px;
 }
-nav a{
-    color:#000;
+
+nav ul li a {
     text-decoration: none;
+    color: #ffffff;
     font-weight: bold;
+    font-size: 16px;
 }
-nav a:hover {
-    color: #ffd700;
-}
-.logo img{
-    height: 40px;
-    margin-right: 20px;
-}
-body{
-    background-color: #f9f9f9;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-dl{
-    margin-left: 20px;
-}
-dt{
-    font-weight: bold;
-    margin-top: 10px;
-}
-dd{
-    margin-bottom: 40px;
-}
-dl button{
-    
-}
-footer{
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+
+main {
+    padding: 80px 20px 20px;
     text-align: center;
 }
-footer nav ul {
-  margin-bottom: 10px;
+
+dl {
+    font-size: 18px;
 }
-footer nav ul li{
-    display: inline;
-    margin-right: 20px;
+
+dt {
+    margin-top: 20px;
+    font-weight: bold;
 }
-footer nav ul li:last-child{
-    margin-right: 0;
+
+dd {
+    margin-bottom: 20px;
 }
-footer nav ul li a {
-    color: #000;
+
+button {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
-footer a{
-    color: #ffd700#;
+dl button a {
     text-decoration: none;
 }
-footer a:hover{
-    text-decoration: underline;
+
+button:hover {
+    background-color: #218838; 
 }
+
+footer {
+    background-color: #d6d6d6; 
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer nav ul li a{
+    color: black;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+body {
+    padding-top: 60px;
+}
+
 @media screen and (max-width: 768px) {
-    header {
-        padding: 15px 0;
-    }
-
-
-    .Nav-Bar {
+    nav ul {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
-
-    .logo img {
-        margin-bottom: 10px;
+    nav ul li {
+        margin: 10px 0;
     }
-
-
-    ul {
-        margin-top: 10px;
-        justify-content: flex-start;
-    }
-
-
-    li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-
 
     main {
-        padding: 15px;
+        padding-top: 120px;
     }
-
-
-    .objectives, .Programs, .mentors, #testimonials {
-        padding: 15px;
-    }
-
-
-    img {
-        width: 100%;
-    }
-}
+} 
