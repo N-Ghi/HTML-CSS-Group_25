@@ -33,7 +33,7 @@ nav a:hover {
   margin-right: 20px;
 }
 body {
-  background-color: #f9f9f8;
+  background-color: #fdfdfd;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -109,6 +109,7 @@ body {
   margin-top: 10px;
 }
 .Programs dd {
+  margin-top: 10px;
   margin-bottom: 40px;
   width: auto !important;
 }
