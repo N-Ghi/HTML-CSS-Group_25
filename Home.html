@@ -1,84 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="Home.css">
-</head>
-<body>
+    <link rel="stylesheet" href="Home.css" />
+  </head>
+  <body>
     <header>
-        <nav class="Nav-Bar" id="top">
-        <div  class="logo">
-            <img src="Imgs/LogR (1).png" alt="Logo">
+      <nav class="Nav-Bar" id="top">
+        <div class="logo">
+          <img src="Imgs/LogR (1).png" alt="Logo" />
         </div>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About Mentors</a></li>
-                <li><a href="Contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About Mentors</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
+      <div class="landing">
         <h1>RealMentor</h1>
         <div class="objectives">
-            <p>
-                    RealMentor is a space for students to interact with and learn from Mentors.<br>
-                    Our mentors share with students up-to-date information with students, they advise the students on what to do to acheive their goals.<br>
-                    Our mentors are always looking forward to hear from you, and helping you with whatever you need on your journey.
-            </p>
+          <p>
+            RealMentor is a space for students to interact with and learn from
+            Mentors.<br />
+            Our mentors share with students up-to-date information with
+            students, they advise the students on what to do to achieve their
+            goals.<br />
+            Our mentors are always looking forward to hear from you, and helping
+            you with whatever you need on your journey.
+          </p>
         </div>
-        <div class="Programs">
-            <h2>Programs offered</h2>
-            <p> We offer two programs:</p>
-           <dl>
-            <dt>Career Advive</dt>
-            <dd>With the Career Advice program our mentors offer guidance and recommendations to students regarding their professional future.
-            This includes helping with choosing a career path, developing relevant skills, job searching strategies, interview preparation, and navigating workplace challenges.
-            </dd>
-            <dt>Resume Review</dt>
-            <dd>This involves the assessment and evaluation of our mentee's resumes. The purpose of resume review is to prodive constructive feedback and suggestions for improving the effectiveness and appeal of the resume in presenting the candidate's qualifications and experience to potential employers</dd>
-           </dl>
+      </div>
+      <div class="Programs">
+        <h2>Programs offered</h2>
+        <!-- <p>We offer two programs:</p> -->
+        <div class="programs-cards">
+          <dl>
+            <div>
+              <dt>Career Advice</dt>
+              <dd>
+                With the Career Advice program our mentors offer guidance and
+                recommendations to students regarding their professional future.
+                This includes helping with choosing a career path, developing
+                relevant skills, job searching strategies, interview
+                preparation, and navigating workplace challenges.
+              </dd>
+            </div>
+            <div>
+              <dt>Resume Review</dt>
+              <dd>
+                This involves the assessment and evaluation of our mentee's
+                resumes. The purpose of resume review is to provide constructive
+                feedback and suggestions for improving the effectiveness and
+                appeal of the resume in presenting the candidate's
+                qualifications and experience to potential employers
+              </dd>
+            </div>
+          </dl>
         </div>
+      </div>
+      <div class="ment">
+        <h2><a href="About.html">Our Mentors</a></h2>
         <div class="mentors">
-            <h2><a href="About.html">Some of the mentors</a></h2>
-            <img src="Imgs/mentors/Jacky (1).jpeg" alt="Jacky">
+          <div>
+            <img src="Imgs/mentors/Jacky (1).jpeg" alt="Jacky" />
+            <blockquote>"Helping is my passion"</blockquote>
+            <cite>- Jacky</cite>
+          </div>
+          <div>
+            <img src="Imgs/mentors/Berissa (1).jpeg" alt="Berissa" />
             <blockquote>
-                "Helping is my passion"
-            </blockquote>
-            <cite>- Jacky</cite> 
-            <img src="Imgs/mentors/Berissa (1).jpeg" alt="Berissa">
-            <blockquote>
-                "A place where you learn from the mistakes you make instead of running away form them"
+              "A place where you learn from the mistakes you make instead of
+              running away form them"
             </blockquote>
             <cite>- Berissa</cite>
+          </div>
+          <div>
+            <img src="image/annabel.jpeg" alt="Annabelle" />
+            <blockquote>
+              "Don't be afraid of trying and failing rather be afraid of never
+              having tried and not knowing your limits. Trial is always the best
+              teacher."
+            </blockquote>
+            <cite>- Annabelle</cite>
+          </div>
         </div>
-        <div id="testimonials" class="testimonials">
-            <h2>Testimonials</h2>
-            <blockquote>
-                "They helped learn what I was doing wrong on my resume and how to crrect it"
-            </blockquote>
-            <cite>- Jane</cite>
-            <blockquote>
-                "I was at my wits end before I got assigned a mentor."
-            </blockquote>
-            <cite>- Lee</cite>
-            <blockquote>
-                "Helping others learn what I know has always been a passion of mine, RealMentor gave me a platform to realise that"
-            </blockquote>
-            <cite>- Ghislaine</cite>
-        </div>
+      </div>
+      <div id="testimonials" class="testimonials">
+        <h2>Testimonials</h2>
+        <blockquote>
+          "They helped learn what I was doing wrong on my resume and how to
+          crrect it"
+        </blockquote>
+        <cite>- Jane</cite>
+        <blockquote>
+          "I was at my wits end before I got assigned a mentor."
+        </blockquote>
+        <cite>- Lee</cite>
+        <blockquote>
+          "Helping others learn what I know has always been a passion of mine,
+          RealMentor gave me a platform to realize that"
+        </blockquote>
+        <cite>- Ghislaine</cite>
+      </div>
     </main>
     <footer>
-        <nav>
+      <nav>
         <ul>
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="About.html">About Mentors</a></li>
-            <li><a href="Contact.html">Contact Us</a></li>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About Mentors</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
         </ul>
-        </nav>
-        <a href="#top">Back to top</a>
-        &COPY;2024
+      </nav>
+      <a href="#top">Back to top</a>
+      &COPY;2024
     </footer>
-</body>
+  </body>
 </html>
